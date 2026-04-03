@@ -76,21 +76,35 @@
 // console.log("Первое число:", first);
 // console.log("Второе число: ", second);
 // console.log("Остальные числа:", rest);
-const massiv1 = [1, 2, 3];
-const massiv2 = [6, 3, 8];
-const comb = [...massiv1, ...massiv2];
-console.log(comb);
-function findMax(...nums) {
-  return Math.max(...nums);
-}
-console.log(findMax(1, 2, 3, 6, 3, 8));
-const o1 = {
-  name: "Zina",
-  age: 30,
-};
-const o2 = {
-  city: "Tambov",
-  street: "Lenina",
-};
-const fullinf = { ...o1, ...o2 };
-console.log(fullinf);
+// const massiv1 = [1, 2, 3];
+// const massiv2 = [6, 3, 8];
+// const comb = [...massiv1, ...massiv2];
+// console.log(comb);
+// function findMax(...nums) {
+//   return Math.max(...nums);
+// }
+// console.log(findMax(1, 2, 3, 6, 3, 8));
+// const o1 = {
+//   name: "Zina",
+//   age: 30,
+// };
+// const o2 = {
+//   city: "Tambov",
+//   street: "Lenina",
+// };
+// const fullinf = { ...o1, ...o2 };
+// console.log(fullinf);
+// import { greet, add, PI} from "./utils.js";
+// console.log("Модули");
+// console.log(greet("Алексей"));
+// console.log("5 + 3=", add(5,3));
+// console.log("Значение PI:", PI);
+// import{ multiply as умножить} from "./utils.js";
+//  console.log("4 * 7 =", умножить(4,7));
+// import * as Utils from "./utils.js";
+// console.log(Utils.greet("Мария"));
+// console.log("Умножение:", Utils.multiply(3, 9));
+import { square,cube,E } from "./math.js";
+console.log(square(2));
+console.log(cube(2));
+console.log(E);
